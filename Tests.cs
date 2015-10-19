@@ -1,16 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Tests.cs" company="">
+//   
+// </copyright>
+// <summary>
+//   The tests.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+
 
 namespace RecipeManager
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    /// <summary>
+    /// The tests.
+    /// </summary>
     [TestClass]
     public class Tests
     {
-      [TestMethod()]
+        /// <summary>
+        /// The true test.
+        /// </summary>
+        [TestMethod()]
       public void TrueTest()
       {
           Assert.IsTrue(true);
